@@ -8,11 +8,14 @@ mAy-I 는 [과학기술정보통신부](https://www.msit.go.kr/)가 주최하고
 
 대회 중 작성하였었던 코드를 아카이빙하는 것이 목적이라, *별도의 문서화나 리팩토링을 거치지 않은 점*, 양해 부탁드립니다:)
 
+보다 자세한 소개는 mAy-I 테크 블로그에서 보실 수 있습니다: [2021 인공지능 온라인 경진대회 이미지 분야 1위 어떻게 했을까?](https://medium.com/@may_i/2021-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B6%84%EC%95%BC-1%EC%9C%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%96%88%EC%9D%84%EA%B9%8C-8a7ad2c9ead4)  
+
 - [메이아이, ‘AI 온라인 경진대회’서 과기부 장관상 수상](http://www.itdaily.kr/news/articleView.html?idxno=204509)
 - mAy-I 는 작년에도 3개 태스크에서 각각 1위, 2위, 2위를 달성하여 종합 5위에 랭크되었습니다:)
   - [2020AIChallenge-05](https://github.com/PJunhyuk/2020AIChallenge-05)
   - [2020-ai-challenge-04](https://github.com/jessekim-ck/2020-ai-challenge-04)
 
+![leaderboard.PNG](https://raw.githubusercontent.com/PJunhyuk/2021AICompetition-03/master/img/leaderboard.PNG)
 
 
 ## 셋업

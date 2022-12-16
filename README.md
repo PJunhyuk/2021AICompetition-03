@@ -1,23 +1,29 @@
 # 2021AICompetition-03
 
-본 repo 는 [mAy-I Inc.](https://may-i.io/) 팀으로 참가한 [2021 인공지능 온라인 경진대회](https://aihub.or.kr/node/28045) 중 `[이미지] 운전 사고 예방을 위한 운전자 부주의 행동 검출 모델]` 태스크 수행을 위한 레포지토리입니다.  
+본 repo는 [주식회사 메이아이](https://may-i.io/)가 `마이애미`라는 팀명으로 참가한 `2021 인공지능 온라인 경진대회` 중 [운전 사고 예방을 위한 운전자 부주의 행동 검출 모델](https://aihub.or.kr/node/28045) 태스크 수행을 위한 레포지토리입니다.  
 
-mAy-I 는 [과학기술정보통신부](https://www.msit.go.kr/)가 주최하고 [정보통신산업진흥원](https://www.nipa.kr/)이 주관하는 **2021 인공지능 온라인 경진대회** 에 참가하여, **이미지 분야 177개 팀 중 최종 1위** 를 달성하여 **과학기술정보통신부장관상** 을 수상하였습니다.  
+메이아이는 [과학기술정보통신부](https://www.msit.go.kr/)가 주최하고 [정보통신산업진흥원](https://www.nipa.kr/)이 주관하는 **2021 인공지능 온라인 경진대회** 에 참가하여, **이미지 분야 177개 팀 중 최종 1위** 를 달성하여 **과학기술정보통신부장관상** 을 수상하였습니다.  
 
-본 repo 는 그 중 **[이미지] 운전 사고 예방을 위한 운전자 부주의 행동 검출 모델** 태스크를 다루고 있으며, mAy-I 는 해당 태스크에서 Public/Private/Final 모든 데이터셋에 대해 **종합 1위** 를 달성하였습니다.
+본 repo는 그 중 **[이미지] 운전 사고 예방을 위한 운전자 부주의 행동 검출 모델** 태스크를 다루고 있으며, 마이애미 팀은 해당 태스크에서 Public/Private/Final 모든 데이터셋에 대해 **종합 1위** 를 달성하였습니다.
 
 ![leaderboard.PNG](https://raw.githubusercontent.com/PJunhyuk/2021AICompetition-03/master/img/leaderboard.PNG)
 
-관련한 보다 자세한 소개는 mAy-I 테크 블로그에서 보실 수 있습니다: [2021 인공지능 온라인 경진대회 이미지 분야 1위 어떻게 했을까?](https://medium.com/@may_i/2021-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B6%84%EC%95%BC-1%EC%9C%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%96%88%EC%9D%84%EA%B9%8C-8a7ad2c9ead4)  
+관련한 보다 자세한 소개는 메이아이 블로그에서 보실 수 있습니다.
+- [2021 인공지능 온라인 경진대회 이미지 분야 1위의 비결은?](https://blog.mash-board.io/tech-17/)
+- [메이아이, 정부 인공지능 대회 과기정통부 장관상 수상](https://blog.mash-board.io/pr-11/)
 
-- [메이아이, ‘AI 온라인 경진대회’서 과기부 장관상 수상](http://www.itdaily.kr/news/articleView.html?idxno=204509)
-- mAy-I 는 작년에도 3개 태스크에서 각각 1위, 2위, 2위를 달성하여 종합 5위에 랭크되었습니다:)
-  - [2020AIChallenge-05](https://github.com/PJunhyuk/2020AIChallenge-05)
-  - [2020-ai-challenge-04](https://github.com/jessekim-ck/2020-ai-challenge-04)
+메이아이는 같은 대회에서 2020년에는 3개 태스크에서 각각 1위, 2위, 2위를 달성하여 종합 5위에 랭크되었으며, 2022년에는 2위를 기록하였습니다:)
+
+- 2022
+  - [PJunhyuk/2022AIChallenge](https://github.com/PJunhyuk/2022AIChallenge)
+- 2020
+  - (블로그) [2020 인공지능 온라인 경진대회 후기](https://blog.mash-board.io/tech-8/)
+  - [PJunhyuk/2020AIChallenge-05](https://github.com/PJunhyuk/2020AIChallenge-05)
+  - [jessekim-ck/2020-ai-challenge-04](https://github.com/jessekim-ck/2020-ai-challenge-04)
 
 대회 중 작성하였었던 코드를 아카이빙하는 것이 목적이라, *별도의 문서화나 리팩토링을 거치지 않은 점*, 양해 부탁드립니다:)
 
-
+- - -
 
 ## 셋업
 
@@ -110,7 +116,7 @@ $ apt-get update && apt-get install -y --no-install-recommends \
 $ pip install -r requirements.txt
 ```
 
-
+- - -
 
 ## 학습 및 추론
 
@@ -126,7 +132,7 @@ $ python train.py
 $ python predict.py
 ```
 
-
+- - -
 
 ## 코드 설명
 
@@ -368,7 +374,7 @@ V100 환경에서 ensemble 기준 총 1시간 정도가 소요됩니다.
 
 추론 결과는 `runs/test/final` 경로 아래에 저장됩니다. 최종 제출 파일은 폴더 내의 `last_predictions.json` 에 저장됩니다.
 
-
+- - -
 
 ## Reproducibility
 
